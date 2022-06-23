@@ -1,0 +1,193 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+ */
+
+/* 
+
+
+.row{
+    margin: 0%;
+    padding: 0%;
+    width: 1000px;
+}
+
+.leftContainer{
+    margin-left: -40px;
+    padding: 0%;
+}
+
+*/
+
+.container{
+width: 100%;
+height: 100%;
+
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: auto;
+    background-color: black;
+}
+
+.topHead {
+    font-family: 'Exo', sans-serif;
+    font-size: 3.95rem;
+    margin-top: -10px;
+}
+
+.midHeading {
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.rightContainer {
+    color: white;
+    background-color: black;
+    margin-right: -10%;
+    margin: 0%;
+    padding: 5% 2%;
+}
+
+.fa-twitter {
+    color: aliceblue;
+    width: 40px;
+    height: auto;
+    margin-top: -8%;
+    margin-bottom: 10%;
+}
+
+/* .googleButton{
+    border-radius: 50%;
+    width: 100px;
+} */
+
+.btn {
+    margin: 9px 0px;
+    border-radius: 40px;
+    width: 300px;
+    border: 0ch;
+}
+
+
+
+
+.signupText {
+    color: black;
+    margin: auto;
+    margin-left: 10%;
+    transition: color 0.2s;
+    height: max-content;
+}
+
+.signupText:hover {
+    color: white;
+
+}
+
+.logoSmall {
+    fill: black;
+    height: 30px;
+}
+
+.logoSmall:hover {
+    fill: white;
+}
+
+.container {
+    size: 100%;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+/* Left */
+
+.leftContainer {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+#graffiti {
+    width: auto;
+    height: max-content;
+}
+
+.banner {
+    height: 600px;
+    width: auto;
+}
+
+/* logo */
+
+.logoSmallGoogle {
+    height: 35px;
+    width: 35px;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+.logoSmallApple {
+    height: 35px;
+    width: 35px;
+}
+
+
+
+/* Partition */
+hr {
+    border-top: 1px solid grey;
+    width: 300px;
+
+}
+
+.partitionText {
+    margin: 0;
+    margin-top: -30px;
+    text-align: center;  
+    width: 300px;
+  
+}
+
+
+#notice {
+    font-size: 0.6rem;
+    color: grey;
+}
+
+.linkPolicy{
+    color: dodgerblue;
+}
+
+.linkPolicy:hover{
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+}
+
+#para{
+    margin: auto;
+}
+
+/* .lowerButton{
+    margin: 9px 0px;
+    background-color: white;
+    border-radius: 40px;
+    width: 500px;
+} */
+
+#signInBtn{    
+    border: 1px solid grey;
+    }
+
+#signInBtn:hover{
+    border: 0px solid grey;
+}
