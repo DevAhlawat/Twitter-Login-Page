@@ -1,7 +1,7 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities;
- */
+*/
 
 /* 
 
@@ -115,6 +115,12 @@ body {
     height: max-content;
 }
 
+.leftContainer{
+    background-image: url(/images/Twitter.jpeg);
+    background-position: center;
+    
+}
+
 .banner {
     height: 600px;
     width: auto;
@@ -175,6 +181,7 @@ a {
 
 #para{
     margin: auto;
+    margin-top: 60px;
 }
 
 /* .lowerButton{
@@ -189,5 +196,45 @@ a {
     }
 
 #signInBtn:hover{
-    border: 0px solid grey;
+    border: 1px solid dodgerblue;
+}
+
+.nav-item{
+    font-size: 14px;
+    padding: 0%;
+    margin: auto;
+    margin-top: 8px;
+}
+
+
+.nav-link{
+    padding: 0px 6px;
+    color: grey;
+
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+.nav-link:active{
+    color: white;
+}
+
+
+
+.footer-credit{
+    color: grey;
+    font-size: 14px;
+    margin: auto;
+    align-items: center;
+}
+
+#credit-foot:hover{
+    text-decoration: none;
+}
+
+#para-foot:hover{
+    text-decoration: none;
 }
